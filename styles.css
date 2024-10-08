@@ -1,0 +1,82 @@
+/* File: styles.css */
+/* General styling for the entire website */
+body {
+  font-family: 'Roboto', sans-serif; /* Font style for better readability */
+  line-height: 1.6; /* Line height for better spacing */
+  background: #f9f9f9; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background: #333; /* Dark background for header */
+  color: #fff; /* White text color for contrast */
+  padding: 10px 20px; /* Padding for spacing */
+}
+
+/* Logo styling */
+.logo {
+  display: inline;
+}
+
+/* Navigation links styling */
+.nav-links {
+  list-style: none; /* Remove bullet points from list */
+  display: flex;
+  justify-content: space-around; /* Evenly distribute navigation links */
+  padding-left: 0;
+}
+
+.nav-links a {
+  color: #fff; /* White color for links */
+  text-decoration: none; /* Remove underline from links */
+  padding: 5px;
+}
+
+/* About Me section styling */
+.about {
+  display: flex; /* Flexbox for layout */
+  padding: 40px; /* Padding for spacing */
+  text-align: left;
+}
+
+.profile-pic {
+  width: 150px; /* Width of profile picture */
+  border-radius: 50%; /* Make profile picture round */
+  margin-right: 20px; /* Margin between picture and text */
+}
+
+/* Projects section styling */
+.projects-container {
+  display: flex;
+  flex-direction: column; /* Arrange projects vertically */
+}
+
+.project-item {
+  background: #fff; /* White background for project card */
+  padding: 20px; /* Padding inside project card */
+  margin: 15px 0; /* Spacing between project cards */
+  border-radius: 8px; /* Rounded corners for project card */
+}
+
+.project-icon {
+  margin-right: 10px; /* Spacing between icon and text */
+}
+
+/* Resume and Contact sections styling */
+.resume, .contact {
+  text-align: center; /* Center align content */
+  padding: 40px; /* Padding for spacing */
+}
+
+/* Social links styling */
+.social-links a {
+  margin: 0 15px; /* Spacing between social icons */
+  color: #333; /* Dark color for icons */
+  font-size: 1.5em; /* Increase icon size */
+}
+.social-links a:hover {
+  color: #0077b5; /* Change color on hover for visual feedback */
+}
